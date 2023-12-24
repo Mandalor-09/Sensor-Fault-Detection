@@ -1,0 +1,11 @@
+[ 2023-12-24 12:57:19,556 ] 96 werkzeug - WARNING -  * Debugger is active!
+[ 2023-12-24 12:57:19,563 ] 96 werkzeug - INFO -  * Debugger PIN: 527-464-457
+[ 2023-12-24 12:57:30,780 ] 40 root - INFO - Prediction completed. Preparing DataFrame for download.
+[ 2023-12-24 12:57:30,794 ] 46 root - INFO - Saved DataFrame to temp_prediction_result.csv. Downloading prediction file.
+[ 2023-12-24 12:57:30,893 ] 65 root - ERROR - An unexpected error occurred: Could not build url for endpoint '/'. Did you mean 'static' instead?
+[ 2023-12-24 12:57:30,917 ] 96 werkzeug - INFO - 127.0.0.1 - - [24/Dec/2023 12:57:30] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-12-24 12:57:30,984 ] 96 werkzeug - INFO - 127.0.0.1 - - [24/Dec/2023 12:57:30] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-12-24 12:57:30,988 ] 96 werkzeug - INFO - 127.0.0.1 - - [24/Dec/2023 12:57:30] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-12-24 12:57:31,351 ] 96 werkzeug - INFO - 127.0.0.1 - - [24/Dec/2023 12:57:31] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-12-24 12:57:31,801 ] 96 werkzeug - INFO - 127.0.0.1 - - [24/Dec/2023 12:57:31] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-12-24 12:57:46,823 ] 96 werkzeug - INFO -  * Detected change in 'C:\\Users\\DELL\\OneDrive\\Desktop\\sensor\\app.py', reloading

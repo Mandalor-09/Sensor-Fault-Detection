@@ -1,0 +1,3 @@
+[ 2023-12-24 13:04:59,814 ] 96 werkzeug - WARNING -  * Debugger is active!
+[ 2023-12-24 13:04:59,819 ] 96 werkzeug - INFO -  * Debugger PIN: 527-464-457
+[ 2023-12-24 13:05:12,919 ] 96 werkzeug - INFO -  * Detected change in 'C:\\Users\\DELL\\OneDrive\\Desktop\\sensor\\app.py', reloading

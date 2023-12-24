@@ -1,0 +1,9 @@
+[ 2023-12-24 13:00:17,998 ] 96 werkzeug - WARNING -  * Debugger is active!
+[ 2023-12-24 13:00:18,003 ] 96 werkzeug - INFO -  * Debugger PIN: 527-464-457
+[ 2023-12-24 13:00:20,927 ] 96 werkzeug - INFO - 127.0.0.1 - - [24/Dec/2023 13:00:20] "GET / HTTP/1.1" 200 -
+[ 2023-12-24 13:00:20,979 ] 96 werkzeug - INFO - 127.0.0.1 - - [24/Dec/2023 13:00:20] "[33mGET /script.js HTTP/1.1[0m" 404 -
+[ 2023-12-24 13:00:21,054 ] 96 werkzeug - INFO - 127.0.0.1 - - [24/Dec/2023 13:00:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2023-12-24 13:00:30,664 ] 40 root - INFO - Prediction completed. Preparing DataFrame for download.
+[ 2023-12-24 13:00:30,706 ] 46 root - INFO - Saved DataFrame to temp_prediction_result.csv. Downloading prediction file.
+[ 2023-12-24 13:00:30,711 ] 96 werkzeug - INFO - 127.0.0.1 - - [24/Dec/2023 13:00:30] "POST /predict HTTP/1.1" 200 -
+[ 2023-12-24 13:04:58,024 ] 96 werkzeug - INFO -  * Detected change in 'C:\\Users\\DELL\\OneDrive\\Desktop\\sensor\\app.py', reloading

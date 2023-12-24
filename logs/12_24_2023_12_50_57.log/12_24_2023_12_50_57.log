@@ -1,0 +1,6 @@
+[ 2023-12-24 12:50:57,929 ] 96 werkzeug - WARNING -  * Debugger is active!
+[ 2023-12-24 12:50:57,936 ] 96 werkzeug - INFO -  * Debugger PIN: 527-464-457
+[ 2023-12-24 12:51:07,322 ] 39 root - INFO - Prediction completed. Preparing DataFrame for download.
+[ 2023-12-24 12:51:07,347 ] 45 root - INFO - Saved DataFrame to temp_prediction_result.csv. Downloading prediction file.
+[ 2023-12-24 12:51:07,450 ] 96 werkzeug - INFO - 127.0.0.1 - - [24/Dec/2023 12:51:07] "POST /predict HTTP/1.1" 200 -
+[ 2023-12-24 12:53:45,135 ] 96 werkzeug - INFO -  * Detected change in 'C:\\Users\\DELL\\OneDrive\\Desktop\\sensor\\app.py', reloading

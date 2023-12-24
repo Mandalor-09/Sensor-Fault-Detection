@@ -1,0 +1,41 @@
+[ 2023-12-24 12:36:23,216 ] 21 root - INFO - Data ingestion Method Initiated
+[ 2023-12-24 12:36:23,403 ] 30 root - INFO - Read Data Success
+[ 2023-12-24 12:36:23,473 ] 34 root - INFO - Raw dataset saved successfully
+[ 2023-12-24 12:36:23,473 ] 38 root - INFO - All data directory made successfully
+[ 2023-12-24 12:36:23,474 ] 41 root - INFO - Data paths: artifacts\ds\raw_ds.csv, artifacts\ds\train_ds.csv, artifacts\ds\test_ds.csv
+[ 2023-12-24 12:36:23,474 ] 69 root - INFO - Data Transformation Step initiated
+[ 2023-12-24 12:36:23,499 ] 73 root - INFO - Read raw data successfully
+[ 2023-12-24 12:36:29,963 ] 80 root - INFO - Train and Test Data Splitting Started
+[ 2023-12-24 12:36:30,002 ] 84 root - INFO - Saved training data to artifacts\ds\train_ds.csv
+[ 2023-12-24 12:36:30,009 ] 87 root - INFO - Saved testing data to artifacts\ds\test_ds.csv
+[ 2023-12-24 12:36:30,009 ] 89 root - INFO - Preprocessing Step Initiated
+[ 2023-12-24 12:36:30,013 ] 99 root - INFO - Columns after dropping unnecessary columns: Index(['Sensor-1', 'Sensor-2', 'Sensor-3', 'Sensor-4', 'Sensor-5', 'Sensor-7',
+       'Sensor-8', 'Sensor-9', 'Sensor-10', 'Sensor-11',
+       ...
+       'Sensor-565', 'Sensor-566', 'Sensor-571', 'Sensor-572', 'Sensor-573',
+       'Sensor-579', 'Sensor-580', 'Sensor-582', 'Sensor-583', 'Sensor-584'],
+      dtype='object', length=248)
+[ 2023-12-24 12:36:30,055 ] 110 root - INFO - KNN imputation completed successfully
+[ 2023-12-24 12:36:30,058 ] 117 root - INFO - Saved KNN imputer to artifacts\preprocessing\knn_imputer.joblib
+[ 2023-12-24 12:36:30,355 ] 139 root - INFO - Saved Robust Scaler to artifacts\preprocessing\robust_preprocessor.joblib
+[ 2023-12-24 12:36:30,355 ] 140 root - INFO - Data Ingestion and Transformation Step Completed
+[ 2023-12-24 12:36:30,356 ] 47 root - INFO - Data preprocessing completed successfully.
+[ 2023-12-24 12:36:30,849 ] 76 root - INFO - Best parameters for LogisticRegression: {'C': 100, 'penalty': 'l2'}
+[ 2023-12-24 12:36:30,849 ] 77 root - INFO - Best cross-validation score: 1.0000
+[ 2023-12-24 12:36:31,659 ] 76 root - INFO - Best parameters for SVC: {'C': 0.1, 'gamma': 'auto', 'kernel': 'rbf'}
+[ 2023-12-24 12:36:31,659 ] 77 root - INFO - Best cross-validation score: 1.0000
+[ 2023-12-24 12:36:32,082 ] 76 root - INFO - Best parameters for KNeighborsClassifier: {'n_neighbors': 3, 'p': 2, 'weights': 'uniform'}
+[ 2023-12-24 12:36:32,082 ] 77 root - INFO - Best cross-validation score: 0.8997
+[ 2023-12-24 12:36:38,343 ] 76 root - INFO - Best parameters for DecisionTreeClassifier: {'criterion': 'gini', 'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 10, 'splitter': 'random'}
+[ 2023-12-24 12:36:38,343 ] 77 root - INFO - Best cross-validation score: 1.0000
+[ 2023-12-24 12:40:56,647 ] 76 root - INFO - Best parameters for RandomForestClassifier: {'bootstrap': True, 'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 50}
+[ 2023-12-24 12:40:56,647 ] 77 root - INFO - Best cross-validation score: 1.0000
+[ 2023-12-24 12:40:56,648 ] 95 root - INFO - The maximum cross-validation score is 1.0000 for the model LogisticRegression.
+[ 2023-12-24 12:40:56,648 ] 96 root - INFO - The best parameters for LogisticRegression are: {'C': 100, 'penalty': 'l2'}
+[ 2023-12-24 12:40:56,648 ] 52 root - INFO - Best model: LogisticRegression
+[ 2023-12-24 12:40:56,648 ] 53 root - INFO - Best parameters: {'C': 100, 'penalty': 'l2'}
+[ 2023-12-24 12:40:56,665 ] 91 root - INFO - Train Accuracy: 100.00%
+[ 2023-12-24 12:40:56,667 ] 95 root - INFO - Test Accuracy: 100.00%
+[ 2023-12-24 12:40:56,672 ] 108 root - INFO - The final model has been trained and saved at artifacts\models\final_model.joblib
+[ 2023-12-24 12:40:56,817 ] 128 root - INFO - Test Accuracy on new test data: 70.00%
+[ 2023-12-24 12:40:56,817 ] 71 root - INFO - Model saved at: artifacts\models\final_model.joblib
